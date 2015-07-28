@@ -1,0 +1,80 @@
+#caja{
+
+}
+img.imgletra{
+ width:100px;
+ height:100px;
+ position: relative;
+ top:  150px; 
+ left: 300px;
+}
+img.imgletra2{
+ width:100px;
+ height:100px;
+ position: relative;
+ top:  150px; 
+ left: 405px;
+}
+img.imgletra3{
+ width:100px;
+ height:100px;
+ position: relative;
+ top:  150px; 
+ left: 505px;
+}
+#caja{
+	float: left;
+	width: 110px;
+	height: 110px;
+	border: 1px solid #f00;	
+     }
+#caja2{
+	float: left;
+	width: 110px;
+	height: 110px;
+	border: 1px solid #f00;	
+	top:  105px; 
+    left: 5px;
+     }
+#caja3{
+	float: left;
+	width: 110px;
+	height: 110px;
+	border: 1px solid #f00;	
+	top:  205px; 
+    left: 5px;
+     }
+
+div.column {
+     	border: 1px solid #f00;
+     	width: 30px;
+	    height: 30px;
+      }
+#div2 {
+     	border: 1px solid #f00;
+     	width: 50px;
+	    height: 50px;
+	    left: 205px;
+     }
+#drag1{
+         width: 25px;
+	     height: 25px;
+     }
+#drag2{
+         width: 25px;
+	     height: 25px;
+	     top:  205px; 
+         left: 5px;
+     }
+.fila1{
+      top: 10px;
+      left: 50px;
+     }
+
+.gamebutton{
+	min-width: 115px;
+     }
+
+
+
+

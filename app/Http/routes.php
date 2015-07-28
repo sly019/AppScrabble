@@ -22,7 +22,10 @@ Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
 
 Route::get('/', 'Auth\AuthController@getLogin');
-Route::get('/home', 'HomeController@index');
+//Route::get('/home', 'HomeController@index');
+Route::post('home/unirse', 'HomeController@unirse');
+Route::resource('home', 'HomeController');
+Route::get('/tablero', 'HomeController@tablero');
 //Route::post('/songs/{id}/enqueue', 'SongsController@enqueue');
 //Route::resource('songs', 'SongsController');
 //Route::resource('users', 'UsersController');
